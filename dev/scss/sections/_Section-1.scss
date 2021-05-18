@@ -1,0 +1,23 @@
+/* =============
+    Section-1
+============= */
+#section1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: "contact coffee about";
+
+    h2 {
+        grid-area: contact;
+    }
+    h2 {
+        grid-area: coffee;
+    }
+    h2 {
+        grid-area: about;
+    }
+}
+
+#coffeespill {
+    display: grid;
+    max-width: 100%;
+}
