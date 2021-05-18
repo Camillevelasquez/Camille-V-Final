@@ -287,14 +287,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/.Final_web_design_peddler_coffee copy.sketch.icloud" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/.Final_web_design_peddler_coffee copy.sketch.icloud",
-      "oF" : 0
-    },
     "\/dev\/content\/section-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -579,6 +571,12 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
