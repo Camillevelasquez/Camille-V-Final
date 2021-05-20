@@ -1,21 +1,19 @@
 /* =============
     Header
 ============= */
-#coffee-header {
-    display: grid;
-
     #coffee-header {
         display: grid;
-        grid-template-columns: 60% 40%;
-        grid-template-areas: "coffeeheader";
-        
-        h1 {
-            display: inline-block;
-            grid-area: peddler;
-        }
+        grid-template-columns: 140px;
+        grid-template-rows: 200px;
+        grid-area: coffeeheader;
+        text-align: left;
 
-        img {
-            grid-area: coffeeheader;
-        }
+    #peddler {
+        display: grid;
+        grid-area: peddler;
+
     }
-}
+
+    grid-template-areas: "coffeeheader peddler";
+
+    }

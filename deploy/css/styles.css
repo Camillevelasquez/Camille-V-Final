@@ -364,6 +364,10 @@ ul li {
   display: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -396,18 +400,15 @@ textarea {
 ============= */
 #coffee-header {
   display: grid;
-}
-#coffee-header #coffee-header {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  grid-template-areas: "coffeeheader";
-}
-#coffee-header #coffee-header h1 {
-  display: inline-block;
-  grid-area: peddler;
-}
-#coffee-header #coffee-header img {
+  grid-template-columns: 140px;
+  grid-template-rows: 200px;
   grid-area: coffeeheader;
+  text-align: left;
+  grid-template-areas: "coffeeheader peddler";
+}
+#coffee-header #peddler {
+  display: grid;
+  grid-area: peddler;
 }
 
 /* =============
@@ -416,9 +417,14 @@ textarea {
 /* =============
     Section-1
 ============= */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 #section1 {
   display: grid;
-  grid-template-columns: repeat(3), 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100px;
   grid-template-areas: contact coffee about;
 }
@@ -432,10 +438,18 @@ textarea {
 #section1 #about {
   grid-template-areas: about;
 }
-#section1 #coffeespill {
-  display: grid;
-  grid-template-columns: repeat(3), 1fr;
-  width: 100%;
+#section1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  > div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px;
+    grid-template-areas: contact coffee about;
+  }
 }
 
 /* =============
@@ -445,6 +459,9 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+}
+#buttons > div {
+  padding-left: 16px;
 }
 #buttons #menu {
   display: grid;

@@ -1,9 +1,15 @@
 /* =============
     Section-1
 ============= */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #section1 {
     display: grid;
-    grid-template-columns: repeat(3), 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px;
     grid-template-areas: contact coffee about;
 
@@ -17,9 +23,17 @@
     #about {
         grid-template-areas: about;
     }
-    #coffeespill {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+>div {
+    @include md {
         display: grid;
-        grid-template-columns: repeat(3), 1fr;
-        width: 100%;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 100px;
+        grid-template-areas: contact coffee about;
     }
 }
