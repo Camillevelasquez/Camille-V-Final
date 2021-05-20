@@ -401,3 +401,35 @@ textarea {
 /* =============
     Footer
 ============= */
+/* =============
+    Section-1
+============= */
+#section1 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas: "contact coffee about";
+}
+#section1 h2 {
+  grid-area: contact;
+}
+#section1 h2 {
+  grid-area: coffee;
+}
+#section1 h2 {
+  grid-area: about;
+}
+
+#coffeespill {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  max-width: 100%;
+}
+
+/* =============
+    Section-2
+============= */
+#buttons {
+  display: grid;
+  grid-template-columns: auto;
+  display: center;
+}

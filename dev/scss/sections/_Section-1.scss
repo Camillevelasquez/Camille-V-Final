@@ -3,7 +3,7 @@
 ============= */
 #section1 {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas: "contact coffee about";
 
     h2 {
@@ -19,5 +19,6 @@
 
 #coffeespill {
     display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     max-width: 100%;
 }
