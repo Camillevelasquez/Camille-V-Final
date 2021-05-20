@@ -352,6 +352,18 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -406,23 +418,24 @@ textarea {
 ============= */
 #section1 {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-areas: "contact coffee about";
+  grid-template-columns: repeat(3), 1fr;
+  grid-template-rows: 100px;
+  grid-template-areas: contact coffee about;
 }
-#section1 h2 {
-  grid-area: contact;
+#section1 #contact {
+  grid-template-areas: contact;
+  grid-template-rows: 100px;
 }
-#section1 h2 {
-  grid-area: coffee;
+#section1 #coffee {
+  grid-template-areas: coffee;
 }
-#section1 h2 {
-  grid-area: about;
+#section1 #about {
+  grid-template-areas: about;
 }
-
-#coffeespill {
+#section1 #coffeespill {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  max-width: 100%;
+  grid-template-columns: repeat(3), 1fr;
+  width: 100%;
 }
 
 /* =============
@@ -430,6 +443,30 @@ textarea {
 ============= */
 #buttons {
   display: grid;
-  grid-template-columns: auto;
-  display: center;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+#buttons #menu {
+  display: grid;
+  align-items: center;
+}
+#buttons #shop {
+  display: grid;
+  align-items: center;
+}
+
+/* =============
+    Section-3
+============= */
+/* =============
+    Section-4
+============= */
+#covid {
+  display: grid;
+  text-align: center;
+}
+
+#covidpar {
+  display: grid;
+  text-align: left;
 }

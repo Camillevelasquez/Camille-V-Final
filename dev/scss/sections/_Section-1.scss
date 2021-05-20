@@ -3,22 +3,23 @@
 ============= */
 #section1 {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-areas: "contact coffee about";
+    grid-template-columns: repeat(3), 1fr;
+    grid-template-rows: 100px;
+    grid-template-areas: contact coffee about;
 
-    h2 {
-        grid-area: contact;
+    #contact {
+        grid-template-areas: contact;
+        grid-template-rows: 100px;
     }
-    h2 {
-        grid-area: coffee;
+    #coffee {
+        grid-template-areas: coffee;
     }
-    h2 {
-        grid-area: about;
+    #about {
+        grid-template-areas: about;
     }
-}
-
-#coffeespill {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    max-width: 100%;
+    #coffeespill {
+        display: grid;
+        grid-template-columns: repeat(3), 1fr;
+        width: 100%;
+    }
 }
