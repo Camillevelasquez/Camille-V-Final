@@ -2,20 +2,27 @@
     Section-2
 ============= */
 #buttons {
-    >div {
-        padding-left: 16px;
-    }
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-
-    #menu {
-        display: grid;
+    .center {
+        display: flex;
+        justify-content: center;
         align-items: center;
-    }
+        height: 200px;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      }
+}
 
-    #shop {
-        display: grid;
-        align-items: center;
+#buttons {
+    @include md{
+        img {
+            .column {
+                width: 60%;
+              }
+              padding-left: 90px;
+          }
     }
 }

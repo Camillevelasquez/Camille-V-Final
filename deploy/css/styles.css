@@ -455,26 +455,37 @@ img {
 /* =============
     Section-2
 ============= */
-#buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+#buttons .center {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  height: 200px;
 }
-#buttons > div {
-  padding-left: 16px;
+#buttons img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
-#buttons #menu {
-  display: grid;
-  align-items: center;
-}
-#buttons #shop {
-  display: grid;
-  align-items: center;
+
+@media (min-width: 768px) {
+  #buttons img {
+    padding-left: 90px;
+  }
+  #buttons img .column {
+    width: 60%;
+  }
 }
 
 /* =============
     Section-3
 ============= */
+#menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
 /* =============
     Section-4
 ============= */
@@ -486,4 +497,54 @@ img {
 #covidpar {
   display: grid;
   text-align: left;
+}
+
+/* =============
+    Section-5
+============= */
+#orderahead {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+img {
+  align-items: center;
+}
+
+/* =============
+    Section-9
+============= */
+form * {
+  display: block;
+}
+form label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+form input,
+form button,
+form select,
+form textarea {
+  margin-bottom: 16px;
+}
+
+img {
+  align-content: center;
+}
+
+/* =============
+    Section-10
+============= */
+#member form * {
+  display: block;
+}
+#member form label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+#member form input,
+#member form button,
+#member form textarea {
+  margin-bottom: 16px;
 }

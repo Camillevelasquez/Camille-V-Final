@@ -46,17 +46,17 @@
 <section id="buttons">
     <div>
         <img src="img/Section-2/Menu.png" alt="menu">
-        <button id="menu">
+        <button>
             Menu
         </button>
         <img src="img/Section-2/Shop.png" alt="shop">
-        <button id="shop">
+        <button>
             Shop
         </button>
     </div>
 </section>
 <section>
-    <div>
+    <div id="menu">
         <h2>
             Menu
         </h2>
@@ -87,7 +87,9 @@
             Vanilla 50 Cents
             Decaf 50 Cents
         </h3>
-        <img src="img/Section-3/Tea.png" alt="tea">
+        <Section>
+        <img src="img/Section-3/Tea.png" alt="tea"> 
+        </Section>
     </div>
 </section>
 <section>
@@ -103,7 +105,7 @@
     </p>
 </section>
 <section>
-    <div>
+    <div id="orderahead">
         <img src="img/Section-5/Coffee_spoon.png" alt="Coffee spoon">
         <h1>
             Order Ahead
@@ -192,20 +194,18 @@
             2100 Spring St Philadelphia, PA 19103
         </h3>
         <img src="img/Section-8/gps.png" alt="gps">
-        <h3>
-            Maps
-        </h3>
+        <button> Maps </button>
         <h1>
             Our Store Hours:
         </h1>
         <h3>
-            Monday: 8 am–2 pm
-            Tuesday: 8 am–2 pm
-            Wednesday: 8 am–2 pm
-            Thursday: 8 am–2 pm
-            Friday: 8 am–2 pm
-            Saturday: 8 am–4 pm
-            Sunday: 8 am–4 pm
+            Monday: 8 am–2 pm <br>
+            Tuesday: 8 am–2 pm <br>
+            Wednesday: 8 am–2 pm <br>
+            Thursday: 8 am–2 pm <br>
+            Friday: 8 am–2 pm <br>
+            Saturday: 8 am–4 pm <br>
+            Sunday: 8 am–4 pm <br>
         </h3>
     </div>
 </section>
@@ -216,25 +216,22 @@
         <h1>
             Seeking a Job?
         </h1>
-        <h2>
-            Apply Here!
-        </h2>
-        <h3>
-            First & Last Name
-            Email
-            Phone Number
-            Resume
-        </h3>
-        <h3>
-            Upload
-        </h3>
-        <h3>
-            Select position
-            Select
-        </h3>
-        <h3>
-            Submit
-        </h3>
+        <form>
+            <h2>Apply Here!</h2>
+            <label>First and Last Name</label>
+            <input type="text" placeholder="First and last name ">
+            <label>Email</label>
+            <input type="text" placeholder="Name@anyemail.com">
+            <label type="number">Phone Number</label>
+            <input type="text" placeholder="(xxx) xxx-xxx">
+            <label>Resume</label>
+            <textarea>Add your resume here</textarea>
+            <button>Upload</button>
+            <label>Select position</label>
+            <select>
+              <option>Cashier</option>
+              <option>Manager</option>
+            </select>
     </div>
 </section>
 <section>
@@ -242,22 +239,21 @@
         <h1>
             Become a Member for Rewards!
         </h1>
-        <h2>
-            First & Last Name
-        </h2>
-        <h2>
-            Email
-        </h2>
-        <h2>
-            Phone
-        </h2>
-        <h2>
-            Submit
-        </h2>
-        <h1>
-            In the Community
-        </h1>
-        <img src="img/Section-10/community.png" alt="Community">
+            <section id="member">
+            <form>
+            <label>First and Last Name</label>
+            <input type="text" placeholder="First and last name ">
+            <label>Email</label>
+            <input type="text" placeholder="Name@anyemail.com">
+            <label type="number">Phone Number</label>
+            <input type="text" placeholder="(xxx) xxx-xxx">
+            <button>Submit</button>
+            <Section>
+                <h1>
+                    In the Community
+                </h1>
+                <img src="img/Section-10/community.png" alt="Community">
+            </Section>
     </div>
 </section>
 <Footer>
