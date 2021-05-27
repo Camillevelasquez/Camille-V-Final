@@ -5,4 +5,15 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    background-color: #22181C;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h2 {
+    text-decoration-color: white;
+}
+
+h3 {
+    text-decoration-color: white;
 }

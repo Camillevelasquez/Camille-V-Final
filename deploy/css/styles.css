@@ -371,6 +371,11 @@ img {
 /* =============
     Typography
 ============= */
+h1 {
+  font-family: "asap", Sans-serif;
+  font-weight: medium;
+}
+
 /* =============
     Buttons
 ============= */
@@ -399,6 +404,10 @@ textarea {
     Header
 ============= */
 #coffee-header {
+  border-width: 100px;
+  border-color: #E0C529;
+  border-right: 5px;
+  border-bottom: 5px;
   display: grid;
   grid-template-columns: 140px;
   grid-template-rows: 200px;
@@ -484,6 +493,17 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  background-color: #22181C;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+h2 {
+  text-decoration-color: white;
+}
+
+h3 {
+  text-decoration-color: white;
 }
 
 /* =============
@@ -492,11 +512,16 @@ img {
 #covid {
   display: grid;
   text-align: center;
+  margin: 25px;
 }
 
 #covidpar {
   display: grid;
   text-align: left;
+  background-color: #896A67;
+  padding: 60px 45px;
+  margin: 25px;
+  text-decoration-color: white;
 }
 
 /* =============
@@ -504,7 +529,7 @@ img {
 ============= */
 #orderahead {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
 }
 
@@ -547,4 +572,60 @@ img {
 #member form button,
 #member form textarea {
   margin-bottom: 16px;
+}
+
+/* =============
+    Section-6
+============= */
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+p {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+img {
+  padding-right: 26px;
+  padding-left: 26px;
+  align-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#alchemy {
+  display: grid;
+  background-color: #22181C;
+}
+
+/* =============
+    Section-8
+============= */
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+button {
+  align-content: center;
+}
+
+/* =============
+    Section-7
+============= */
+.center {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  height: 200px;
+}
+
+img {
+  align-content: center;
 }

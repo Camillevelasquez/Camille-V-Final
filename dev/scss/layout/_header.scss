@@ -2,6 +2,11 @@
     Header
 ============= */
     #coffee-header {
+            border-width: 100px;
+            border-color: #E0C529;
+            border-right: 5px;
+            border-bottom: 5px;
+
         display: grid;
         grid-template-columns: 140px;
         grid-template-rows: 200px;
