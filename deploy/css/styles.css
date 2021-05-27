@@ -441,8 +441,11 @@ textarea {
 ============= */
 footer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(2, 1fr);
+  align-content: center;
   background-color: #22181C;
+  padding: 5px;
 }
 
 /* =============
@@ -603,6 +606,7 @@ form textarea {
 
 img {
   align-items: center;
+  margin: 25px;
 }
 
 /* =============
@@ -619,6 +623,11 @@ img {
 #member form button,
 #member form textarea {
   margin-bottom: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
 }
 
 /* =============
