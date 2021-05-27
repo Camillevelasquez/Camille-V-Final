@@ -3,17 +3,39 @@
 ============= */
 #menu {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    grid-area: first coffee second tea;
     background-color: #22181C;
+    text-decoration-color: white;
     padding-left: 16px;
     padding-right: 16px;
 }
 
-h2 {
-    text-decoration-color: white;
+#menu-header {
+    display: grid;
+    grid-area: menuhead;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
 
-h3 {
-    text-decoration-color: white;
+#coffee-table {
+    display: grid;
+    grid-area: coffee;
 }
+
+#tea {
+    display: grid;
+    grid-area: tea;
+}
+
+#firstpart {
+    display: grid;
+    grid-area: first;
+}
+
+#parttwo {
+    display: grid;
+    grid-area: second;
+}
+

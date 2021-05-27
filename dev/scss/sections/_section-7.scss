@@ -1,14 +1,23 @@
 /* =============
     Section-7
 ============= */
-.center {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    align-items: center;
-    height: 200px;
-  }
+#coffee-bags {
+    .center {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        align-items: center;
+        height: 200px;
+      } 
+}
 
   img {
       align-content: center;
   }
+
+@include md {
+    #coffee-bags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}

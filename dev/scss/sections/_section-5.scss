@@ -4,10 +4,11 @@
 #orderahead {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 1fr;
     }
 
-    img {
-        align-items: center;
+#spoon {
+        justify-content: center;
+        margin: 25px;
     }
 

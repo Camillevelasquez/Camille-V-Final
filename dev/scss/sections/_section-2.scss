@@ -16,13 +16,14 @@
       }
 }
 
-#buttons {
-    @include md{
-        img {
-            .column {
-                width: 60%;
-              }
-              padding-left: 90px;
-          }
-    }
+#menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+      }
+
+#shop {
+    display: flex;
+    align-items: center;
 }
