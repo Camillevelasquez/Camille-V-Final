@@ -366,6 +366,7 @@ ul li {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 /* =============
@@ -389,7 +390,6 @@ h3 {
 p {
   font-family: "lato", Sans-serif;
   font-weight: lighter;
-  text-decoration-color: white;
 }
 
 /* =============
@@ -440,78 +440,64 @@ textarea {
     Footer
 ============= */
 footer {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: repeat(2, 1fr);
-  align-content: center;
   background-color: #22181C;
   padding: 5px;
+  text-align: center;
+}
+footer a {
+  color: white;
 }
 
 /* =============
     Section-1
 ============= */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 #section1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100px;
-  grid-template-areas: contact coffee about;
+  grid-template-areas: "contact coffee about";
 }
 #section1 #contact {
-  grid-template-areas: contact;
+  grid-area: contact;
   grid-template-rows: 100px;
 }
 #section1 #coffee {
-  grid-template-areas: coffee;
+  grid-area: coffee;
 }
 #section1 #about {
-  grid-template-areas: about;
+  grid-area: about;
 }
 #section1 img {
   max-width: 100%;
   height: auto;
 }
 
-@media (min-width: 768px) {
-  > div {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 100px;
-    grid-template-areas: contact coffee about;
-  }
-}
-
 /* =============
     Section-2
 ============= */
-#buttons .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+#buttons #menu-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background-color: #22181C;
+  color: white;
+}
+#buttons #shop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background-color: #22181C;
+  color: white;
+  margin-bottom: 20%;
 }
 #buttons img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-}
-
-#menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-}
-
-#shop {
-  display: flex;
-  align-items: center;
+  margin-top: 10%;
 }
 
 /* =============
@@ -570,7 +556,7 @@ img {
   background-color: #896A67;
   padding: 60px 45px;
   margin: 25px;
-  text-decoration-color: white;
+  color: white;
 }
 
 /* =============

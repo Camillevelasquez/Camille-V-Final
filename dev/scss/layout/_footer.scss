@@ -2,10 +2,10 @@
     Footer
 ============= */
 footer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(2, 1fr);
-    align-content: center;
     background-color: #22181C;
     padding: 5px;
+    text-align: center;
+    a {
+        color: white;
+    }
 }

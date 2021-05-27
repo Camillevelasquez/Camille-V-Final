@@ -2,28 +2,30 @@
     Section-2
 ============= */
 #buttons {
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-      }
-      img {
+    #menu-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        background-color: #22181C;
+        color: white;
+    }
+
+    #shop {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        background-color: #22181C;
+        color: white;
+        margin-bottom: 20%;
+    }
+
+    img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
-      }
-}
-
-#menu {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-      }
-
-#shop {
-    display: flex;
-    align-items: center;
+        margin-top: 10%;
+    }
 }
