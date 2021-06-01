@@ -367,7 +367,6 @@ ul li {
 img {
   max-width: 100%;
   height: auto;
-  margin: 25px;
 }
 
 /* =============
@@ -454,13 +453,10 @@ footer a {
 ============= */
 #section1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px;
   grid-template-areas: "contact coffee about";
 }
 #section1 #contact {
   grid-area: contact;
-  grid-template-rows: 100px;
 }
 #section1 #coffee {
   grid-area: coffee;
@@ -468,9 +464,9 @@ footer a {
 #section1 #about {
   grid-area: about;
 }
-#section1 img {
+#section1 #coffee-spill {
   max-width: 100%;
-  height: auto;
+  align-items: center;
 }
 
 /* =============
@@ -505,36 +501,37 @@ footer a {
     Section-3
 ============= */
 #menu {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-area: first coffee second tea;
   background-color: #22181C;
-  text-decoration-color: white;
-  padding-left: 16px;
-  padding-right: 16px;
+  color: white;
+  min-height: 100vh;
+  padding: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#menu #gold {
+  border: 1px solid goldenrod;
+  min-height: 100vh;
+  width: 100%;
 }
 #menu #menu-header {
-  display: grid;
-  grid-area: menuhead;
-  grid-template-columns: 1fr;
   text-align: center;
+  padding: 25px;
 }
 #menu #coffee-table {
-  display: grid;
-  grid-area: coffee;
+  text-align: center;
+  max-width: 50%;
 }
 #menu #tea {
-  display: grid;
-  grid-area: tea;
+  align-items: center;
+  max-width: 50%;
 }
 #menu #firstpart {
-  display: grid;
-  grid-area: first;
+  text-align: center;
 }
 #menu #parttwo {
   display: grid;
   grid-area: second;
+  text-align: left;
 }
 
 /* =============
