@@ -39,5 +39,32 @@
         grid-area: second;
         text-align: left;
     }
+
+    .container {
+        margin-top: 30px;
+        width: 100%;
+      }
+      
+      #menutable-1 {
+        margin-left: 25px;
+        border-collapse: collapse
+        
+        td { 
+            padding: 150px; 
+            margin-right: 20px;
+        }  
+      }
+
+      #menutable-2 {
+          margin-left: 25px;
+      }
+
+      #menutable-3 {
+          margin-left: 25px;
+      }
+
+      #menutable-4 {
+          margin-left: 25px;
+      }
 }
 

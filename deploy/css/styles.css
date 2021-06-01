@@ -533,6 +533,25 @@ footer a {
   grid-area: second;
   text-align: left;
 }
+#menu .container {
+  margin-top: 30px;
+  width: 100%;
+}
+#menu #menutable-1 {
+  margin-left: 25px;
+  border-collapse: collapse td;
+  border-collapse-padding: 150px;
+  border-collapse-margin-right: 20px;
+}
+#menu #menutable-2 {
+  margin-left: 25px;
+}
+#menu #menutable-3 {
+  margin-left: 25px;
+}
+#menu #menutable-4 {
+  margin-left: 25px;
+}
 
 /* =============
     Section-4
