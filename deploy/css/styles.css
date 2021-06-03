@@ -594,8 +594,25 @@ footer a {
 #orderahead #spoon {
   text-align: center;
 }
+#orderahead #spoon img {
+  align-content: center;
+}
 #orderahead #buttons {
-  padding: 25px;
+  display: block;
+  margin: 0 auto;
+}
+#orderahead #buttons td {
+  padding: 15px;
+}
+#orderahead #buttons button {
+  text-align: left;
+  border: none;
+  font-family: "lato", sans-serif;
+  background-color: white;
+  padding: 10px 30px;
+  margin: 10px;
+  display: block;
+  width: 100%;
 }
 
 /* =============
