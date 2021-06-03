@@ -575,14 +575,27 @@ footer a {
     Section-5
 ============= */
 #orderahead {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
-
-#spoon {
-  justify-content: center;
+  background-color: #22181C;
+  min-height: 30vh;
+  padding: 16px;
   margin: 25px;
+  text-align: center;
+}
+#orderahead #goldboard {
+  border: 1px solid goldenrod;
+  min-height: 30vh;
+  width: 100%;
+}
+#orderahead #Orderahead-2 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+#orderahead #spoon {
+  text-align: center;
+}
+#orderahead #buttons {
+  padding: 25px;
 }
 
 /* =============

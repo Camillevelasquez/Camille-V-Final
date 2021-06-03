@@ -2,13 +2,30 @@
     Section-5
 ============= */
 #orderahead {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+
+    background-color: #22181C;
+    min-height: 30vh;
+    padding: 16px;
+    margin: 25px;
+    text-align: center;
+
+#goldboard {
+    border: 1px solid goldenrod;
+    min-height: 30vh;
+    width: 100%;
+}
+
+    #Orderahead-2 {
+        text-align: center;
+        color: white;
+        padding: 10px;
     }
 
-#spoon {
-        justify-content: center;
-        margin: 25px;
+    #spoon {
+        text-align: center;
     }
 
+    #buttons {
+    padding: 25px;
+    }
+}
