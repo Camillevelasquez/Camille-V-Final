@@ -2,6 +2,11 @@
     Section-10
 ============= */
 #member {
+
+    border: 1px solid goldenrod;
+    margin: 25px;
+    padding: 25px;
+
     form {
         * {
             display: block;
@@ -18,6 +23,15 @@
             margin-bottom: 16px;
         }
     }  
+
+    button {
+        background-color: #22181C;
+        color: white;
+        border: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-content: right;
+    }
 }
 
 h1 {

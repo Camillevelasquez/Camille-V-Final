@@ -1,15 +1,30 @@
 /* =============
     Section-8
 ============= */
+#store-hours {
+    background-color: #896A67;
+    color: white;
+    padding: 30px 10px;
+    margin: 25px;
 
-h2 {
-    text-align: center;
+    h2 {
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
 }
 
-h3 {
-    text-align: center;
-}
+#map-button {
+    text-align: right;
+    margin-right: 15px;
 
-button {
-    align-content: center;
-}
+    button {
+        background-color: #22181C;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+    }
+}  
+

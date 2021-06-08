@@ -1,27 +1,56 @@
 /* =============
     Section-9
 ============= */
-    form {
-        * {
-          display: block;
-        }
-        
-        label {
-          font-weight: bold;
-          margin-bottom: 4px;
-        }
-        
-        input,
-        button,
-        select,
-        textarea {
-          margin-bottom: 16px;
-        }
-      }  
+#apply {
+
+  background-color: #22181C;
+  color: white;
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin: 25px;
+  text-align: left;
+  font-family: 'lato', sans-serif;
+  font-weight: lighter;
+
+}
 
 img {
     align-items: center;
     margin: 25px;
 }
+
+form {
+  * {
+    display: block;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin-bottom: 16px;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+  }
+
+  button {
+    align-items: right;
+  }
+
+  font-family: 'lato', sans-serif;
+  font-weight: lighter;
+}  
 
 
