@@ -7,16 +7,5 @@
     padding: 15px;
     margin: 25px;
     color: white;
-    .center {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        align-items: center;
-        height: 200px;
-      } 
-
-      img {
-        align-content: center;
-    }  
 }
 

@@ -4,6 +4,7 @@
 #section1 {
     display: grid;
     grid-template-areas: "contact coffee about";
+    text-align: center;
 
     #contact {
         grid-area: contact;
@@ -14,8 +15,11 @@
     #about {
         grid-area: about;
     }
-    #coffee-spill {
-            max-width: 100%;
-            align-items: center;
-    }
+}
+
+        
+img {
+    max-width: 100%;
+    align-items: center;
+
 }

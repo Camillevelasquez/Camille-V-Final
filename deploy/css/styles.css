@@ -352,23 +352,20 @@ template {
 /* =============
     Base
 ============= */
-ul {
-  margin: 0;
-  padding: 0;
-}
-ul li {
-  list-style: none;
-}
-
-.hidden {
-  display: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
+/*ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}*/
+/*.hidden{
+    display: none;
+}*/
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
 /* =============
     Typography
 ============= */
@@ -454,6 +451,7 @@ footer a {
 #section1 {
   display: grid;
   grid-template-areas: "contact coffee about";
+  text-align: center;
 }
 #section1 #contact {
   grid-area: contact;
@@ -464,7 +462,8 @@ footer a {
 #section1 #about {
   grid-area: about;
 }
-#section1 #coffee-spill {
+
+img {
   max-width: 100%;
   align-items: center;
 }
@@ -508,6 +507,9 @@ footer a {
   padding: 16px;
   margin-left: 25px;
   margin-right: 25px;
+  font-family: "lato", sans-serif;
+  font-weight: lighter;
+  line-height: 30px;
 }
 #menu #gold {
   border: 1px solid goldenrod;
@@ -611,7 +613,7 @@ footer a {
   border: none;
   font-family: "lato", sans-serif;
   background-color: white;
-  padding: 10px 30px;
+  padding: 10px;
   margin: 10px;
   display: block;
   width: 100%;
@@ -634,7 +636,6 @@ footer a {
 
 img {
   align-items: center;
-  margin: 25px;
 }
 
 form {
@@ -715,6 +716,7 @@ h1 {
   text-align: left;
   padding-left: 60px;
   padding-right: 60px;
+  line-height: 25px;
   margin: 25px;
   color: white;
 }
@@ -757,14 +759,4 @@ h1 {
   padding: 15px;
   margin: 25px;
   color: white;
-}
-#coffee-bags .center {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  align-items: center;
-  height: 200px;
-}
-#coffee-bags img {
-  align-content: center;
 }
