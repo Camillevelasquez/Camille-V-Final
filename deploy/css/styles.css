@@ -590,16 +590,6 @@ footer a {
   color: white;
   padding: 10px;
 }
-#orderahead #spoon {
-  text-align: center;
-}
-#orderahead #spoon img {
-  align-content: center;
-}
-#orderahead #buttons {
-  display: block;
-  margin: 0 auto;
-}
 #orderahead #buttons td {
   padding: 15px;
 }
@@ -610,8 +600,15 @@ footer a {
   background-color: white;
   padding: 10px;
   margin: 10px;
-  display: block;
+  display: flex;
+  align-items: center;
   width: 100%;
+}
+
+#spoon {
+  text-align: center;
+  padding: 30px;
+  margin: 80px 25px;
 }
 
 /* =============

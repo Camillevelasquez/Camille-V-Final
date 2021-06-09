@@ -21,17 +21,7 @@
         padding: 10px;
     }
 
-    #spoon {
-        text-align: center;
-
-        img {
-            align-content: center;
-        }
-    }
-
     #buttons {
-        display: block;
-        margin: 0 auto;
 
         td {
             padding: 15px;
@@ -44,8 +34,16 @@
             background-color: white;
             padding: 10px;
             margin: 10px;
-            display: block;
+            display: flex;
+            align-items: center;
             width: 100%;
         }
     }
+}
+
+
+#spoon {
+    text-align: center;
+    padding: 30px;
+    margin: 80px 25px;
 }
