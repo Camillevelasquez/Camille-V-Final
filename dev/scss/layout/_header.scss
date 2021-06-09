@@ -1,17 +1,17 @@
 /* =============
     Header
 ============= */
-    #coffee-header {
-            border-width: 100px;
-            border-color: #E0C529;
-            border-right: 5px;
-            border-bottom: 5px;
+#coffee-header {
 
-        display: grid;
-        grid-template-columns: 140px;
-        grid-template-rows: 200px;
-        grid-area: coffeeheader;
-        text-align: left;
+    border: 1px solid #E0C529;
+    padding: 30px;
+    line-height: 30px;
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: 120px;
+    grid-area: coffeeheader;
 
     #peddler {
         display: grid;
@@ -21,4 +21,4 @@
 
     grid-template-areas: "coffeeheader peddler";
 
-    }
+}

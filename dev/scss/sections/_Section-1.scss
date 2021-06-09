@@ -5,6 +5,7 @@
     display: grid;
     grid-template-areas: "contact coffee about";
     text-align: center;
+    margin-top: 30px;
 
     #contact {
         grid-area: contact;
