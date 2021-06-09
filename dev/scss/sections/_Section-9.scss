@@ -15,10 +15,6 @@
 
 }
 
-img {
-    align-items: center;
-}
-
 form {
   * {
     display: block;
@@ -51,5 +47,10 @@ form {
   font-family: 'lato', sans-serif;
   font-weight: lighter;
 }  
+
+.employees {
+  text-align: center;
+  padding: 25px;
+}
 
 

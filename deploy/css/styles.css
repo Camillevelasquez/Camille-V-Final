@@ -362,10 +362,10 @@ template {
 /*.hidden{
     display: none;
 }*/
-/* img {
-    max-width: 100%;
-    height: auto;
-} */
+img {
+  max-width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -461,11 +461,6 @@ footer a {
 }
 #section1 #about {
   grid-area: about;
-}
-
-img {
-  max-width: 100%;
-  align-items: center;
 }
 
 /* =============
@@ -634,10 +629,6 @@ img {
   font-weight: lighter;
 }
 
-img {
-  align-items: center;
-}
-
 form {
   font-family: "lato", sans-serif;
   font-weight: lighter;
@@ -663,6 +654,11 @@ form textarea {
 }
 form button {
   align-items: right;
+}
+
+.employees {
+  text-align: center;
+  padding: 25px;
 }
 
 /* =============
@@ -697,6 +693,11 @@ form button {
 h1 {
   text-align: center;
   margin: 25px;
+}
+
+#community {
+  text-align: center;
+  margin: 80px 25px;
 }
 
 /* =============
@@ -741,14 +742,24 @@ h1 {
 }
 
 #map-button {
+  margin: 25px;
   text-align: right;
-  margin-right: 15px;
 }
 #map-button button {
   background-color: #22181C;
   color: white;
   padding: 10px 20px;
   border: none;
+}
+
+#store {
+  text-align: center;
+  padding: 25px;
+}
+
+#map {
+  text-align: center;
+  padding: 25px;
 }
 
 /* =============
@@ -759,4 +770,9 @@ h1 {
   padding: 15px;
   margin: 25px;
   color: white;
+}
+
+.b1 {
+  text-align: center;
+  padding: 25px;
 }

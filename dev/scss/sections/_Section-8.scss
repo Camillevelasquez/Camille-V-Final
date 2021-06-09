@@ -17,8 +17,8 @@
 }
 
 #map-button {
+    margin: 25px;
     text-align: right;
-    margin-right: 15px;
 
     button {
         background-color: #22181C;
@@ -28,3 +28,12 @@
     }
 }  
 
+#store {
+    text-align: center;
+    padding: 25px;
+}
+
+#map {
+    text-align: center;
+    padding: 25px;
+}
