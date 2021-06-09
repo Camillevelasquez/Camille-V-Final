@@ -21,7 +21,7 @@
         margin-bottom: 20%;
     }
 
-    img {
+    .shop-images {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -29,4 +29,15 @@
         margin-top: 10%;
         padding: 10px;
     }
+
+    @include md {
+        .row {
+            display: flex;
+          }
+          
+          .column {
+            flex: 33.33%;
+            padding: 5px;
+          }
+}
 }

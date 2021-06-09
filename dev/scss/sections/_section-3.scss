@@ -47,6 +47,7 @@
     grid-area: coffeetable
 }
 
+
 #tea {
     display: grid;
     grid-template-areas: ". tea .";
@@ -85,6 +86,16 @@
         padding: 5px; 
         margin-right: 20px;
     }  
+  }
+
+  @include md {
+      #coffee-table {
+          margin-left: 200px;
+      }
+
+      #tea {
+          margin-left: 200px;
+      }
   }
 
   #menutable-3 {

@@ -420,7 +420,6 @@ textarea {
   border: 1px solid #E0C529;
   padding: 30px;
   line-height: 30px;
-  max-width: 100%;
   display: grid;
   grid-template-columns: max-content;
   grid-template-rows: 120px;
@@ -463,6 +462,11 @@ footer a {
   grid-area: about;
 }
 
+@media only screen and (min-device-width: 1440px) {
+  #coffee-spill {
+    width: fit-content;
+  }
+}
 /* =============
     Section-2
 ============= */
@@ -483,13 +487,22 @@ footer a {
   color: white;
   margin-bottom: 20%;
 }
-#buttons img {
+#buttons .shop-images {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
   margin-top: 10%;
   padding: 10px;
+}
+@media (min-width: 768px) {
+  #buttons .row {
+    display: flex;
+  }
+  #buttons .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 }
 
 /* =============
@@ -573,6 +586,15 @@ footer a {
   margin-right: 20px;
 }
 
+@media (min-width: 768px) {
+  #coffee-table {
+    margin-left: 200px;
+  }
+
+  #tea {
+    margin-left: 200px;
+  }
+}
 #menutable-3 {
   display: flex;
   justify-content: center;
