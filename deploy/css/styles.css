@@ -590,6 +590,10 @@ footer a {
   color: white;
   padding: 10px;
 }
+#orderahead #buttons {
+  display: block;
+  margin: 0 auto;
+}
 #orderahead #buttons td {
   padding: 15px;
 }
