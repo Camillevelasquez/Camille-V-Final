@@ -287,13 +287,57 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/Final_web_design_peddler_coffee 2.sketch" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/design\/Desktop HD.jpg" : {
+      "ft" : 16384,
+      "iS" : 6574569,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/Final_web_design_peddler_coffee 2.sketch",
-      "oF" : 0
+      "oAP" : "\/design\/Desktop HD.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/Desktop.jpg" : {
+      "ft" : 16384,
+      "iS" : 4081045,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/Desktop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/Mobile.jpg" : {
+      "ft" : 16384,
+      "iS" : 1761542,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/Mobile.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/Tablet.jpg" : {
+      "ft" : 16384,
+      "iS" : 3789017,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/Tablet.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/dev\/content\/section-1.kit" : {
       "cB" : 0,

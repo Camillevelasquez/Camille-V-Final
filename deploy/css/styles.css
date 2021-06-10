@@ -461,12 +461,18 @@ footer a {
 #section1 #about {
   grid-area: about;
 }
-
-@media only screen and (min-device-width: 1440px) {
-  #coffee-spill {
-    width: fit-content;
+@media (min-width: 1024px) {
+  #section1 #coffee-spill {
+    min-width: 150%;
   }
 }
+
+#coffee-spill {
+  margin: 0px 25px;
+  padding: -10px;
+  text-align: center;
+}
+
 /* =============
     Section-2
 ============= */
@@ -494,15 +500,6 @@ footer a {
   width: 40%;
   margin-top: 10%;
   padding: 10px;
-}
-@media (min-width: 768px) {
-  #buttons .row {
-    display: flex;
-  }
-  #buttons .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
 }
 
 /* =============
