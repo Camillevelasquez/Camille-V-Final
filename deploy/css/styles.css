@@ -591,6 +591,29 @@ footer a {
   #tea {
     margin-left: 200px;
   }
+
+  #menutable-1 {
+    display: flex;
+    justify-content: left;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  #coffee-table {
+    margin-left: 300px;
+  }
+
+  #tea {
+    margin-left: 300px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  #coffee-table {
+    margin-left: 375px;
+  }
+
+  #tea {
+    margin-left: 375px;
+  }
 }
 #menutable-3 {
   display: flex;
@@ -668,6 +691,21 @@ footer a {
   display: flex;
   align-items: center;
   width: 100%;
+}
+@media (min-width: 768px) {
+  #orderahead #buttons {
+    margin-left: 160px;
+  }
+}
+@media (min-width: 1024px) {
+  #orderahead #buttons {
+    margin-left: 310px;
+  }
+}
+@media (min-width: 1200px) {
+  #orderahead #buttons {
+    margin-left: 400px;
+  }
 }
 
 #spoon {
@@ -824,14 +862,23 @@ h1 {
 /* =============
     Section-7
 ============= */
+#custom-coffee {
+  text-align: center;
+}
+
 #coffee-bags {
   background-color: #896A67;
   padding: 15px;
   margin: 25px;
   color: white;
 }
-
-.b1 {
+#coffee-bags .b1 {
   text-align: center;
   padding: 25px;
+}
+@media (min-width: 1024px) {
+  #coffee-bags #coffee-bags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

@@ -1,14 +1,24 @@
 /* =============
     Section-7
 ============= */
+#custom-coffee {
+    text-align: center;
+}
 #coffee-bags {
     background-color: #896A67;
     padding: 15px;
     margin: 25px;
     color: white;
-}
 
-.b1 {
-    text-align: center;
-    padding: 25px;
+    .b1 {
+        text-align: center;
+        padding: 25px;
+    }
+
+    @include lg {
+        #coffee-bags {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 }

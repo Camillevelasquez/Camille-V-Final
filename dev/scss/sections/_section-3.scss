@@ -96,6 +96,30 @@
       #tea {
           margin-left: 200px;
       }
+
+      #menutable-1 {
+          display: flex;
+          justify-content: left;
+      }
+
+      @include lg {
+        #coffee-table {
+            margin-left: 300px;
+        }
+  
+        #tea {
+            margin-left: 300px;
+        }
+      }
+
+      @include xl {
+          #coffee-table {
+              margin-left: 375px;
+          }
+          #tea {
+            margin-left: 375px;
+        }
+      }
   }
 
   #menutable-3 {

@@ -41,6 +41,25 @@
             width: 100%;
         }
     }
+
+    @include md {
+        #buttons {
+            margin-left: 160px;
+        }
+    }
+
+    @include lg {
+        #buttons {
+            margin-left: 310px;
+        }
+    }
+
+    @include xl {
+        #buttons {
+            margin-left: 400px;
+        }
+    }
+
 }
 
 
